@@ -9,8 +9,30 @@ h2 {
   font-family: 'Lato', sans-serif;
   text-align: center;
   color: whitesmoke;
-  font-size: 6vh;
+  font-size: 5vh;
 }
+
+/* Banner */
+
+.banner{
+  background-image: url("../images/banner_sfumato.jpg");
+  background-position: 75% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+  .scatola {
+  display: flex;
+  padding: 16px;
+  margin: 4px;
+ }
+
+ .logo {
+  height: 312px;
+  margin: 32px;
+  margin-bottom: 64px;
+ }
 
 .container{
   display: flex;
