@@ -9,7 +9,7 @@ h2 {
   font-family: 'Lato', sans-serif;
   text-align: center;
   color: whitesmoke;
-  font-size: 5vh;
+  
 }
 
 /* Banner */
@@ -22,17 +22,52 @@ h2 {
   height: 100%;
 }
 
-  .scatola {
+.scatola {
   display: flex;
+  justify-content: start;
+  align-items: flex-end;
   padding: 16px;
   margin: 4px;
- }
+}
 
  .logo {
-  height: 312px;
-  margin: 32px;
-  margin-bottom: 64px;
- }
+   height: 312px;
+   margin: 32px;
+   margin-bottom: 64px;
+  }
+
+.scrittura{
+  /* margin-left: 20%; */
+  /* flex-basis: 45vw; */
+  font-size: 4vh;
+  flex-grow: 2;
+  margin-bottom: 32px;
+}
+
+.spazio{
+  flex-grow: 1;
+}
+
+.scatoletta {
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  font-size: 1.5em;
+  text-decoration: none;
+  background-color: rgb(228, 29, 87);
+  color: white ;
+  border-radius: 16px;
+  padding: 8px 40px 8px 40px;
+  /* box-shadow: 2px 2px 11px rgba(80, 80, 80, 0.2); */
+  transition: 0.3s;
+  margin: 24px 16px 40px;
+}
+
+button:hover {
+  background-color: rgb(189, 15, 59);
+}
 
 .container{
   display: flex;
@@ -40,34 +75,34 @@ h2 {
   align-items: center;
 }
 
-.logo{
-  max-height: 72vh;
-  margin: 4rem;
-  padding: 8px;
-}
-
-.catchphrase{
-  max-height: 20vh;
-}
 
 /* Media Queries */
+@media(max-width: 1700px) {
+  .scrittura{
+    font-size: 3vh;
+  }
+  .logo{
+    height: 288px;
+  }
+}
+
 @media(max-width: 1024px) {
   .logo{
-    max-height: 60vh;
+    max-height: 184px;
     margin: 8px;
     padding: 8px;
   }
-  .catchphrase{
-    max-height: 140px;
+  .scrittura{
+    margin-bottom: 8px;
   }
   h2{
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 
 @media(max-width: 771px) {
   .logo{
-    max-height: 50vh;
+    max-height: 120px;
     margin: 8px;
     padding: 8px;
   }
@@ -75,7 +110,7 @@ h2 {
     max-height: 140px;
   }
   h2{
-    font-size: 32px;
+    font-size: 22px;
   }
 }
 
