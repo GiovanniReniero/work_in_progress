@@ -1,0 +1,11 @@
+
+.aboutPic{
+  height: 400px;
+  border-radius: 16px;
+}
+
+
+.aboutText{
+  font-weight: bold;
+  font-size: 20px;
+}

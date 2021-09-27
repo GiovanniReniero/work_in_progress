@@ -1,11 +1,13 @@
 @import url("components/buttons.css");
 @import url("components/banners.css");
 @import url("components/cards.css");
+@import url("components/abouts.css");
 
 body{
   margin: 0; 
   padding: 0;
   background-color: black;
+  /* background-image: url("../images/background.png"); */
 }
 
 /* Components */
@@ -60,6 +62,7 @@ h2 {
     font-size: 24px;
     margin: 12px 6px 28px;
   }
+
 }
 
 @media(max-width: 771px) {
@@ -79,6 +82,13 @@ h2 {
   .logo{
     max-height: 400px;
     margin: auto;
+  }
+}
+
+@media(max-width: 420px) {
+  .aboutPic{
+    height: 310px;
+    border-radius: 12px;
   }
 }
 
