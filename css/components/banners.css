@@ -1,0 +1,38 @@
+/* BannerIndex */
+
+.banner{
+  background-image: url("../../images/banner_sfumato.jpg");
+  background-position: 75% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.scatolaBanner {
+  display: flex;
+  flex-direction: column;
+  /* `justify-content: start; */
+  /* `align-items: flex-end;  */
+  padding: 16px;
+  margin: 4px;
+}
+
+ .logo {
+   align-self: flex-start;
+   height: 400px;
+   margin: 32px;
+   margin-bottom: 64px;
+  }
+
+.scrittura{
+  /* margin-left: 20%; */
+  /* flex-basis: 45vw; */
+  font-size: 4vh;
+  /* flex-grow: 2; */
+  margin-bottom: 40px;
+}
+
+/* .spazio{
+  flex-grow: 1;
+} */
+
