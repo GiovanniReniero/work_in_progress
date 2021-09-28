@@ -1,22 +1,33 @@
 @import url("components/buttons.css");
+@import url("components/forms.css");
 @import url("components/banners.css");
 @import url("components/cards.css");
 @import url("components/abouts.css");
 @import url("components/grids.css");
 
+*{
+  /* box-sizing: border-box; */
+}
+
 body{
   margin: 0; 
   padding: 0;
   background-color: black;
+  line-height: 1.6em;
   /* background-image: url("../images/background.png"); */
 }
 
-/* Components */
+/* Tags */
 h2 {
   font-family: 'Lato', sans-serif;
   text-align: center;
   color: whitesmoke;
   font-size: 64px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
 }
 
 /* Media Queries */

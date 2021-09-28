@@ -1,0 +1,43 @@
+
+.brand{
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.brand span{
+  color: #FFC100;
+}
+
+.wrapper{
+  box-shadow: 0 0 20px rgba(225, 224, 224, 0.7);
+}
+
+.wrapper > *{
+  padding: 1em;
+  background: #A2322E;
+}
+
+.contact form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact form label{
+  display: block;
+  color: #FFC100;
+}
+
+.contact form p{
+  margin: 0px;
+  font-size: 24px;
+}
+
+.contact form .full {
+  grid-column: 1 / -1;
+}
+
+ .contact form input, .contact form textarea {
+  width: 100%;
+  /* padding: 1em; */
+  /* margin: 16px; */
+}

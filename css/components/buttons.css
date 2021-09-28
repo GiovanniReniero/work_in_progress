@@ -9,18 +9,18 @@
 button{
   font-size: 1.5em;
   text-decoration: none;
-  /* background-color: rgb(228, 29, 87); */
   background-color: #FFC100;
   color: black ;
+  border: 0;
   border-radius: 16px;
-  padding: 8px 40px 8px 40px;
+  padding: 28px 40px;
   /* box-shadow: 2px 2px 11px rgba(80, 80, 80, 0.2); */
-  transition: 0.3s;
   margin: 24px 16px 40px;
-  font-size: 32px;
+  font-size: 45px;
+  font-weight: 500;
 }
 
 button:hover {
-  /* background-color: rgb(189, 15, 59); */
+  transition: 0.3s;
   background-color: #FDCF24;
 }

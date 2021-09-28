@@ -35,7 +35,9 @@
     </div>
     <!--Button to form-->
     <div class="scatolettaBottone d-flex justify-content-center">
-      <button>Find out more</button>
+      <p>
+        <button>Find out more!</button>
+      </p>
     </div>
   </section>
 
@@ -106,13 +108,11 @@
 
     <!--Grid-->
     <section class="p-5">
-      <!--Insert grid system here-->
-      
       <div class="container">
         <div class="row text-center ">
           <div class="col-md">
             <div class="card bg-dark mb-4">
-              <img src="images/partners/lcb.jpg" alt="London City Bond Logo" class="card-img">
+              <img src="images/partners/lcb.jpg" alt="London City Bond logo" class="card-img">
             </div>
           </div>
           <div class="col-md">
@@ -126,11 +126,10 @@
             </div>
           </div>
         </div>
-
         <div class="row text-center">
           <div class="col-md">
             <div class="card bg-dark mb-4">
-              <img src="images/partners/divo.png" alt="Divo winery Logo" class="card-img">
+              <img src="images/partners/divo.png" alt="Divo winery logo" class="card-img">
             </div>
           </div>
           <div class="col-md">
@@ -144,7 +143,6 @@
             </div>
           </div>
         </div>
-
         <div class="row text-center">
           <div class="col-md">
             <div class="card bg-dark mb-4">
@@ -161,18 +159,58 @@
               <img src="images/partners/tessari.png" alt="Tessari winery logo" class="card-img">
             </div>
           </div>
-        
-         
-
       </div>
     </section>
 
+    <!--Call to Action-->
+  <div class="container">
+    <h2 class="brand">
+      Get in Touch with the <span>Bandits</span>  
+    </h2> 
+    <div class="wrapper">
+      <div class="contact">
+        <form action="POST" data-netlyfy="true">
+          <p>
+            <!--<label for="name">Name</label>-->
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Name" id="name" required minlength="4">
+          </p>
+          <p>
+            <!-- <label for="sirname">Sirname</label>-->
+             <label for="sirname">Sirname</label>
+            <input type="text" name="sirname" placeholder="Sirname" id="sirname" required>
+          </p>
+          <p>
+            <!--<label for="company">Company</label> -->
+            <label for="company">Company</label> 
+            <input type="text" name="company" placeholder="Company" id="company">
+          </p>
+          <p>
+            <!--<label for="email">Email</label> -->
+            <label for="email">Email</label> 
+            <input type="email" name="email" placeholder="you@example.com" id="email" value="email" required>
+          </p>
+          <p>
+            <!--<label for="message">Message</label> -->
+            <label for="message">Message</label> 
+            <textarea name="message" id="message" value="message" cols="60" rows="4" placeholder="Your Message" name="message" required minlength="5" maxlength="100" class="full"></textarea>
+          </p>
+          <p class="full">
+            <button>SUBMIT</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+ 
+ 
+ 
+ 
   </div> 
 
 
 
 
-    <!--Call to Action-->
     <form action="">
       <!--Insert Form here-->
     </form>
