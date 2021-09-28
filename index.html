@@ -165,7 +165,7 @@
     <!--Call to Action-->
     <h2 class="text-center mb-4">Gewt in Touch with the <span class="action">Bandits</span></h2>
     <div class="wrapper">
-      <form action="" method="POST" class="row g-3">
+      <form action="contact" method="POST" data-netlyfy="true" class="row g-3">
 
          <div class="col-md-6">
           <label for="firstName" class="form-label action">First Name</label>
@@ -191,7 +191,8 @@
           <label for="message" class="form-label action">Message</label>
           <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your interest in BubblyBandits" required></textarea>
         </div>
-  
+         <div
+           data-netlyfy-recapcha="true"></div>
           <div class="maca col-md-12 d-flex justify-content-center">
             <button type="submit" class="btn_airbnb ">Submit</button>
           </div>
