@@ -20,8 +20,9 @@ body{
 }
 
 .contImage{
-  background-image: url("../images/background.png");
-  background-repeat: inherit;
+  /* background-image: url("../images/background.png"); */
+  background-color: aqua;
+  background-repeat: no-repeat;
   background-size:   cover;
 }
 
@@ -38,6 +39,21 @@ h2 {
 ul{
   list-style: none;
   padding: 0;
+  align-items: center;
+}
+
+a{
+  color: gray;
+}
+a:hover{
+  color: #A2322E;
+}
+
+hr{
+  width: 60%;
+  height: 5em;
+  background-color: #A2322E;
+  margin:auto;
 }
 
 /* Media Queries */

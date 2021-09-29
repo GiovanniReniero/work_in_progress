@@ -2,7 +2,7 @@
 
 .aboutWrapper{
   margin-bottom: 3em;
-  border: 3px solid lawngreen;
+  /* border: 3px solid lawngreen; */
 }
 
 .aboutPic{
@@ -14,4 +14,8 @@
 .aboutText{
   font-weight: bold;
   font-size: 20px;
+}
+
+.cardText p{
+  font-size: 18px;
 }

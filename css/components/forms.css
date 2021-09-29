@@ -1,23 +1,24 @@
-.wrapper{
+.actionWrapper{
   background-color: #A2322E;
   border-radius: 16px;
+  margin-bottom: 5em;
 }
 
 .action {
   color: #FEBF10
 }
 
-.wrapper > *{
+.actionWrapper > *{
   padding: 1em;
   margin: 1em;
 }
 
-.wrapper form label{
+.actionWrapper form label{
   font-size: 24px;
   /* margin: auto; */
   padding-bottom: 6px;
 }
 
-.wrapper form textarea, .wrapper form input {
+.actionWrapper form textarea, .wrapper form input {
   font-size: 20px
 }
