@@ -4,3 +4,9 @@
 #icon :hover{
   color: #A2322E;
 }
+
+.footerText{
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: bold;
+}
+

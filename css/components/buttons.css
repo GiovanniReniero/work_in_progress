@@ -1,11 +1,8 @@
 
-
 .scatolettaBottone {
   display: flex;
   justify-content: center;
 }
-
-
 
 
 .button{
@@ -26,6 +23,5 @@
   transition: 0.3s;
   background-color: #FDCF24;
   color: #A2322E;
-
 }
 
