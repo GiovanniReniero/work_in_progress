@@ -1,4 +1,10 @@
 
+
+.aboutWrapper{
+  margin-bottom: 3em;
+  border: 3px solid lawngreen;
+}
+
 .aboutPic{
   height: 400px;
   border-radius: 16px;

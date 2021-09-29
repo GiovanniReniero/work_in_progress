@@ -12,10 +12,20 @@
 body{
   margin: 0; 
   padding: 0;
+  /* padding-top: 100%; */
   background-color: black;
   line-height: 1.6em;
-  /* background-image: url("../images/background.png"); */
+  
+  text-rendering: optimizeLegibility;
 }
+
+.contImage{
+  background-image: url("../images/background.png");
+  background-repeat: inherit;
+  background-size:   cover;
+}
+
+
 
 /* Tags */
 h2 {
