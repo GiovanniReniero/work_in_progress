@@ -1,1 +1,6 @@
 
+.gridWrapper{
+  background-image: url("../../images/thirdsection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

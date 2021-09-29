@@ -6,25 +6,22 @@
 @import url("components/abouts.css");
 @import url("components/grids.css");
 
-*{
-  /* box-sizing: border-box; */
-}
 
 body{
   margin: 0; 
   padding: 0;
   /* padding-top: 100%; */
-  background-color: black;
+  background-color: rgb(100, 100, 100);
   line-height: 1.6em;
-  
   text-rendering: optimizeLegibility;
 }
 
 .contImage{
   /* background-image: url("../images/background.png"); */
-  background-color: aqua;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-color: aqua; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* height: 100%; */
 }
 
 /* Tags */
