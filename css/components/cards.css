@@ -1,4 +1,6 @@
-
+.cardsWrapper{
+  background-color: black;
+}
 
 .card_stuff{
   border-radius: 8px;

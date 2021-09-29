@@ -11,14 +11,14 @@ body{
   margin: 0; 
   padding: 0;
   /* padding-top: 100%; */
-  background-color: rgb(100, 100, 100);
+  /* background-color: rgb(20, 20, 20); */
+  background-color: black;
   line-height: 1.6em;
   text-rendering: optimizeLegibility;
 }
 
 .contImage{
-  /* background-image: url("../images/background.png"); */
-  /* background-color: aqua; */
+  background-color: black;
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
   /* height: 100%; */
@@ -42,8 +42,15 @@ ul{
   align-items: center;
 }
 
+/* Line */
+.lineWrapper{
+  background-image: url("../../images/fithsection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 16px;
+}
 
-hr {
+.lineWrapper hr {
   width: 60%;
   height: 20px;
   background-color: #A2322E;

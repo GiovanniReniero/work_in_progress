@@ -1,5 +1,6 @@
 #icon{
   color: gray;
+  padding-top: 28px;
 }
 #icon :hover{
   color: #A2322E;
@@ -8,5 +9,11 @@
 .footerText{
   font-family: 'Nanum Myeongjo', serif;
   font-weight: bold;
+  padding-bottom: 12px;
 }
 
+.footerWrapper{
+  background-image: url("../../images/fithsection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
