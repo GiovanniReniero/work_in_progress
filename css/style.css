@@ -120,6 +120,9 @@ hr{
     max-height: 400px;
     margin: auto;
   }
+  footer p{
+    display: none;
+  }
 }
 
 @media(max-width: 420px) {
