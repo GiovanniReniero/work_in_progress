@@ -35,14 +35,16 @@
         <h2><span class="type"></span>
         </h2>
       </div>
+     <!-- 
       <div class="spazio">
         <p></p>
       </div>
+    -->
     </div>
     <!--Button to form-->
-    <div class="scatolettaBottone d-flex justify-content-center">
+    <div class="scatolettaBottone d-flex justify-content-center p-5">
       <p>
-        <button>Find out more!</button>
+        <a href="#compila" class="button ">Find Out more!</a>
       </p>
     </div>
   </section>
@@ -88,7 +90,7 @@
     <!--About-->
     <div class="aboutWrapper">
       <h2 class="text-center m-3 ">About</h2>
-      <div class=" card-stuff d-flex flex-column-reverse flex-lg-row p-4 align-items-center" >
+      <div class=" card-stuff d-flex flex-column-reverse flex-lg-row p-5 align-items-center " >
         <div class="cardText m-3 mt-4 ">
           <p>
             BubblyBandits Ltd is a newly founded company, born from a passion for sparkling wine and Italian style. We have selected  some niche sparkling wines from a range of small and medium sized family-owned Italian wineries, waiting for you to 
@@ -179,7 +181,7 @@
     <div class="actionWrapper">
       <form action="contact" method="POST" data-netlyfy="true" class="row g-3">
 
-         <div class="col-md-6">
+         <div class="col-md-6" id="compila" >
           <label for="firstName" class="form-label action">First Name</label>
           <input type="text" id="firstName" class="form-control" placeholder="Name" name="firstName" required>
         </div>
@@ -189,7 +191,7 @@
           <input type="text" id="sirname" class="form-control" name="sirname" placeholder="Sirname" required>
         </div>
         
-        <div class="col-md-6">
+        <div class="col-md-6" >
           <label for="phone" class="form-label action">Phone Number</label>
           <input type="tel" id="phone" name="phone" class="form-control" placeholder="+44 (0) 1234567890 ">
         </div>
@@ -204,45 +206,28 @@
           <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your interest in BubblyBandits" required></textarea>
         </div>
          <div data-netlyfy-recapcha="true"></div>
-          <div class="maca col-md-12 d-flex justify-content-center">
-            <button type="submit" class="btn_airbnb ">Submit</button>
+          <div class="col-md-12 d-flex justify-content-center ">
+            <input type="submit" class="button p-4">
           </div>
       </form>
     </div>
 
-    <hr class="line">
+    <hr class="line" style="height: 4px;">
     
     <!-- Footer -->
     <div class="footerWrapper">
-    <footer class="d-flex  flex-column justify-content-center align-items-center m-5">
-          <a href="https://www.instagram.com/bubblybandits/"><i class="fab fa-instagram fa-5x instagram mb-3 "></i></a>
-          <p class="footerText text-center">
+      <footer class="d-flex  flex-column justify-content-center align-items-center m-5">
+        <a href="https://www.instagram.com/bubblybandits/" id="icon"><i class="fab fa-instagram fa-5x instagram mb-3 "></i></a>
+        <p class="footerText text-center">
             BubblyBandits <br>
             Cambridge, United Kingdom <br>
             Registered in England and Wales<br>
             No: 13413068 VAT No: 383 4843 68<br>
-            </p>  
-        
-      </ul>
-      
-
-      </p>
-    </footer>
+        </p>  
+      </footer>
     </div>
- 
- 
-
-
-
-
     
   </div>
-
-
-
-
-
-
 
   <!--Type.js-->
   <script src="typed.js"></script>
@@ -258,12 +243,6 @@
   });
   </script>
   
-  <!--Lightbox-->
- 
-<script></script>
-
-  <!--initial Type-->
-  <!--<script src="main.js"></script>-->
 </body>
 
 </html>

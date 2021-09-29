@@ -3,7 +3,7 @@
 .card_stuff{
   border-radius: 8px;
   /* background-color: 2px solid #BFD0E0; */
-  margin: 16px;
+  margin: 5em;
   box-shadow: 0px 5px 15px rgba(0 ,0, 0, 0.1);
   border: coral solid 03px;
 }

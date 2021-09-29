@@ -1,4 +1,5 @@
 @import url("components/buttons.css");
+@import url("components/footer.css");
 @import url("components/forms.css");
 @import url("components/banners.css");
 @import url("components/cards.css");
@@ -42,16 +43,11 @@ ul{
   align-items: center;
 }
 
-a{
-  color: gray;
-}
-a:hover{
-  color: #A2322E;
-}
 
-hr{
+
+hr {
   width: 60%;
-  height: 5em;
+  height: 20px;
   background-color: #A2322E;
   margin:auto;
 }
