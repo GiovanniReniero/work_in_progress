@@ -1,6 +1,10 @@
 .cardsWrapper{
-  background-color: black;
-  
+  /* background-color: black; */
+  background-image: url("../../images/reasonssection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .card_stuff{

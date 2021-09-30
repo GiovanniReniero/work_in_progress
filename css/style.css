@@ -22,13 +22,15 @@ body{
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
   /* height: 100%; */
+  /* box-sizing: border-box; */
 }
 
 /* Tags */
 h2 {
   font-family: 'Lato', sans-serif;
   text-align: center;
-  color: whitesmoke;
+  /* color: whitesmoke; */
+  color: beige;
   font-size: 64px;
 }
 h4{
@@ -73,7 +75,7 @@ ul{
     font-size: 48px;
   }
   .button{
-    font-size: 20px;
+    font-size: 32px;
   }
 }
 
@@ -85,7 +87,7 @@ ul{
     height: 360px;
   }
   .button{
-    font-size: 24px;
+    font-size: 28px;
     margin: 16px 8px 32px;
   }
 }

@@ -1,12 +1,14 @@
 .allaboutWrapper{
-  background-color: black;
+  /* background-color: black; */
+  background-image: url("../../images/reasonssection.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 0;
+  display: block;
 }
 
 .aboutWrapper{
   margin-bottom: 3em;
-  /* border: 3px solid lawngreen; */
 }
 
 .aboutPic{
@@ -14,7 +16,6 @@
   border-radius: 16px;
   margin: 16px;
 }
-
 
 .aboutText{
   font-weight: bold;
