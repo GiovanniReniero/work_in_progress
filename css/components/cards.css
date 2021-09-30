@@ -1,5 +1,4 @@
 .cardsWrapper{
-  /* background-color: black; */
   background-image: url("../../images/reasonssection.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,19 +8,16 @@
 
 .card_stuff{
   border-radius: 8px;
-  /* background-color: 2px solid #BFD0E0; */
   margin: 5em;
   box-shadow: 0px 5px 15px rgba(0 ,0, 0, 0.1);
   border: coral solid 03px;
 }
-
 
 .cardPic{
   margin: 24px;
   height: 200px;
   border-radius: 8px;
 }
-
 
 .cardText p {
   color: darkgray;
