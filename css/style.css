@@ -112,6 +112,9 @@ ul{
   #icon{
     margin-bottom: 28px;
   }
+  .capcha{
+    justify-content: center;
+  }
 }
 
 @media(max-width: 420px) {

@@ -40,3 +40,8 @@
 .actionWrapper form textarea, .wrapper form input {
   font-size: 20px
 }
+
+.capcha{
+  display: flex;
+  justify-content: start;
+}

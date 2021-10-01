@@ -192,7 +192,7 @@
       </div>
       
       <div class="actionWrapper">
-      <form action="contact" method="POST" data-netlify="true" class="row g-3">
+      <form action="contact" method="POST" data-netlify="true" class="row g-3" name="Contact" data-netlify-recaptcha="true">
 
          <div class="col-md-6" id="compila" >
           <label for="firstName" class="form-label action">First Name</label>
@@ -219,7 +219,7 @@
           <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your interest in BubblyBandits" required></textarea>
         </div>
 
-         <div data-netlyfy-recapcha="true"></div>
+        <div data-netlify-recaptcha="true" class="col-md-6 capcha"></div>
 
           <div class="col-md-12 d-flex justify-content-center ">
             <input type="submit" class="button p-4">
