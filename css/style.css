@@ -37,20 +37,6 @@ ul{
   align-items: center;
 }
 
-/* Line */
-.lineWrapper{
-  background-image: url("../../images/fithsection.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 16px;
-}
-
-.lineWrapper hr {
-  width: 60%;
-  height: 20px;
-  background-color: #A2322E;
-  margin:auto;
-}
 
 /* Media Queries */
 @media(max-width: 1700px) {
@@ -122,6 +108,9 @@ ul{
   }
   footer p{
     display: none;
+  }
+  #icon{
+    margin-bottom: 28px;
   }
 }
 

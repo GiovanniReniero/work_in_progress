@@ -17,3 +17,18 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Line */
+.lineWrapper{
+  background-image: url("../../images/fithsection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0;
+}
+
+.lineWrapper hr {
+  width: 60%;
+  height: 20px;
+  background-color: #A2322E;
+  margin:auto;
+}

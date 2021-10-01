@@ -4,3 +4,7 @@
   background-size: cover;
   border: 0;
 }
+
+.gridWrapper img{
+  box-shadow: 2px 2px 8px  rgba(80, 80, 80, 0.3);
+}
