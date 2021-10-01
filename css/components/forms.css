@@ -19,7 +19,9 @@
   background-color: #A2322E;
   border-radius: 4px;
   margin: 4em 0.3em 6em;
+  box-shadow: 2px 2px 11px  rgba(80, 80, 80, 0.5);
 }
+
 
  .action {
   color: #A2322E;
