@@ -1,0 +1,11 @@
+.imgSpinWrapper {
+  height: 100%;
+  width: 40%;
+  margin:auto;
+}
+
+.imgSpinWrapper img{
+  max-width: 100%;
+  height: auto;
+  padding: auto;
+}

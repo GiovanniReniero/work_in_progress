@@ -1,3 +1,4 @@
+@import url("components/spins.css");
 @import url("components/buttons.css");
 @import url("components/footer.css");
 @import url("components/forms.css");
@@ -94,6 +95,10 @@ ul{
     margin: 8px;
     padding: 8px;
   }
+  .imgSpinWrapper{
+    height: 100%;
+    width: 50%;
+  }
 }
 
 @media(max-width: 700px) {
@@ -125,6 +130,10 @@ ul{
   h4{
     font-size: 18px;
     text-align: start;
+  }
+  .imgSpinWrapper{
+    height: 100%;
+    width: 66%;
   }
 }
 
