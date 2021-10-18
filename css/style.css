@@ -1,3 +1,4 @@
+@import url("components/testimonials.css");
 @import url("components/spins.css");
 @import url("components/buttons.css");
 @import url("components/footer.css");
@@ -86,7 +87,10 @@ ul{
     font-size: 24px;
     margin: 12px 6px 28px;
   }
-
+  .button2{
+    font-size: 18px;
+    margin: 12px 6px 28px;
+  }
 }
 
 @media(max-width: 771px) {
@@ -98,6 +102,18 @@ ul{
   .imgSpinWrapper{
     height: 100%;
     width: 50%;
+  }
+  .testimonialWrapper .grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    padding-top: 1em;
+    gap: 16px;
+  }
+  .testimonialWrapper .grid>:last-child{
+    grid-row: 1;
+  }
+  .testimonialWrapper .grid img {
+    height: 312px;
   }
 }
 
@@ -135,6 +151,23 @@ ul{
     height: 100%;
     width: 66%;
   }
+}
+
+
+@media(max-width: 320px){
+  .testimonialWrapper .grid img {
+    height: 240px;
+  }  
+
+  .testimonialWrapper .grid{
+    margin: 0;
+    height: 100%;
+  }
+
+    .stars {
+    font-size: 32px;
+  }
+  
 }
 
 @media(max-width: 280px) {
