@@ -18,8 +18,9 @@
 }
 
 .author {
-  font-size: 18spx;
-  font-style: bold;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1em;
 }
 
 .stars {
