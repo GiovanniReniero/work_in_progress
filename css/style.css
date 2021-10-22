@@ -159,7 +159,7 @@ Grid
     grid-row: 1;
   }
   .testimonialWrapper .press .grid img {
-    height: 312px;
+    min-height: 312px;
   }
 }
 
