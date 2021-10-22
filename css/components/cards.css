@@ -27,4 +27,7 @@
 
 .cardText p {
   color: darkgray;
+  font-size: 20px;
+  line-height: 1.3em;
+
 }

@@ -204,11 +204,10 @@ Grid
 
 
 @media(max-width: 320px){
-  .testimonialWrapper .grid img {
-    height: 240px;
+  .testimonialWrapper .press .grid img {
+    min-height: 240px;
   }  
-
-  .testimonialWrapper .grid{
+  .testimonialWrapper .press .grid{
     margin: 0;
     height: 100%;
   }
