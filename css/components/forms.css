@@ -7,7 +7,9 @@
   padding-top: 8px;
 }
 
-.actionTextWrapper h4{
+.radio_exclamation h4,
+.actionTextWrapper h4
+{
   margin: 16px 72px 4px;
   text-align: center;
 }
@@ -25,7 +27,9 @@
 
  .action {
   color: #A2322E;
-  font-family: 'Nanum Myeongjo', serif;;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 600;
+  text-shadow: none;
 } 
 
 .actionWrapper > *{

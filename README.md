@@ -7,4 +7,4 @@ HTML 5 for structure, CSS for style. Boorstrap library for some style elements a
 Deployed on Netlyfy making use of their form management system.
 
 ## Status
-Complete with on going adjustments for SEO.
+Complete with on-going adjustments for SEO.

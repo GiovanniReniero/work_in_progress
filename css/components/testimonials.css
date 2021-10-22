@@ -2,15 +2,6 @@
   background: #FCD025;
 }
 
-.testimonialWrapper .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  justify-content: center;
-  align-items: center;
-  padding: 2em;
-}
-
 .article {
   font-size: 24px;
   font-style: italic;
@@ -40,12 +31,24 @@
 .testimonialWrapper h2 .cambridge {
   font-family: 'Times New Roman', Times, serif;
   color: #333;
+  font-weight: normal;
 }
 
 .testimonialWrapper h2 .indipendent {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #F04D22;
+}
+
+.press h3,
+.radio_exclamation h3
+{
+  color: #A2322E;
+  font-weight: bold;
+}
+
+.radio .grid img{
+  min-height: 600px;
 }
 
 .testimonialWrapper .grid>:first-child {
