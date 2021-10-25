@@ -9,6 +9,11 @@
 @import url("components/grids.css");
 
 
+:root {
+  --maroon: #A2322E;
+  --dark: #333;
+}
+
 body{
   margin: 0; 
   padding: 0;
@@ -73,6 +78,19 @@ Grid
   padding: 2em;
 }
 
+
+/******* 
+ Audio
+*******/
+
+audio::-webkit-media-controls-panel{
+  background-color: var(--maroon)
+}
+
+audio{
+  margin: 2em 1em;
+  max-width: 360px;
+}
 
 
 /* Media Queries */
@@ -200,6 +218,13 @@ Grid
   .radio .grid img{
     min-height: 420px;
   }
+  audio{
+    margin: 1em 1em 1.5em 1em;
+    max-width: 240px;
+  }
+  .testimonialWrapper .press .grid img {
+    height: 280px;
+  }
 }
 
 
@@ -211,15 +236,15 @@ Grid
     margin: 0;
     height: 100%;
   }
-
   .radio .grid img{
     min-height: 360px;
   }
-
   .stars {
     font-size: 32px;
   }
-  
+  .aboutPic{
+    height: 260px;
+  }
 }
 
 @media(max-width: 280px) {
@@ -227,4 +252,14 @@ Grid
     max-height: 300px;
     margin: auto;
   }
+  .testimonialWrapper .press .grid img {
+    height: 240px;
+  }
+  .aboutPic{
+    height: 240px;
+  }
+  audio{
+    margin: 1em 1em 1.5em 1em;
+    max-width: 200px;
+  } 
 }
