@@ -102,7 +102,6 @@ audio{
   h4{
     font-size: 24px;
   }
-
 }
 
 @media(max-width: 1550px) {
@@ -209,7 +208,7 @@ audio{
 
 @media(max-width: 420px) {
   .aboutPic{
-    height: 310px;
+    width: 310px;
     border-radius: 12px;
   }
   h4{
@@ -255,7 +254,7 @@ audio{
     font-size: 32px;
   }
   .aboutPic{
-    height: 260px;
+    /* height: 260px; */
     width: 260px;
   }
 }
@@ -277,7 +276,7 @@ audio{
     height: 240px;
   }
   .aboutPic{
-    height: 240px;
+    /* height: 240px; */
     width: 240px;
   }
   audio{
