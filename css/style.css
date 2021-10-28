@@ -167,6 +167,11 @@ audio{
     height: 100%;
     width: 50%;
   }
+
+  .interested,
+  .radio_exclamation h4{
+    font-size: 20px;
+  }
   .testimonialWrapper .press .grid{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
