@@ -7,15 +7,18 @@
 .button{
   font-size: 1.5em;
   text-decoration: none;
+  text-align: center;
   background-color: #FFC100;
   color: black ;
   border: 0;
   border-radius: 16px;
-  padding: 1.2rem 2rem;
+  padding: 16px 40px;
+  /* padding: 1.2rem 2rem; */
   /* box-shadow: 2px 2px 11px rgba(80, 80, 80, 0.2); */
   margin: 24px 16px 40px;
   font-size: 38px;
   font-weight: 500;
+  width: auto;
 }
 
 .button:hover {
@@ -25,14 +28,15 @@
 }
 
 .button2{
-  font-size: 22px;
+  font-size: 1.5em;
   text-decoration: none;
+  text-align: center;
   background-color: #A2322E;
-  /* color: #fff; */
-  color: var(--dark)
+  color: #fff;
+  /* color: var(--dark) */
   border: 0;
   border-radius: 16px;
-  padding: 10px 40px;
+  padding: 16px 40px;
   margin: 24px 16px 40px;
   font-weight: 500;
   width: auto ;

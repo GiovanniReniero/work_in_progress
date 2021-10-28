@@ -17,6 +17,7 @@
 .stars {
   font-style: normal;
   font-size: 40px;
+  margin-bottom: 1em;
 }
 
 .article .a{
@@ -57,7 +58,7 @@
   flex-direction:column;
   justify-content: space-evenly;
   align-items: center;
-  animation: slideLeft;
+  /* animation: slideLeft; */
   animation-duration: 2s;
   animation-fill-mode: forwards;
   position: relative;
@@ -70,7 +71,7 @@
 
 .testimonialWrapper .grid>:last-child {
   margin: auto;
-  animation: slideRight;
+  /* animation: slideRight; */
   animation-duration: 1s;
   animation-fill-mode: forwards;
   position: relative;

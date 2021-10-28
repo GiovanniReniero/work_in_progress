@@ -84,11 +84,11 @@ Grid
 *******/
 
 audio::-webkit-media-controls-panel{
-  background-color: var(--maroon)
+  background-color: var(--maroon);
 }
 
 audio{
-  margin: 2em 1em;
+  margin: 1.5em 1em 4em;
   max-width: 360px;
 }
 
@@ -227,6 +227,13 @@ audio{
   }
 }
 
+@media(max-width: 357px){
+  .button,
+  .button2{
+    font-size: 1.2em;
+    padding:12px 32px;
+  }
+}
 
 @media(max-width: 320px){
   .testimonialWrapper .press .grid img {
@@ -244,6 +251,14 @@ audio{
   }
   .aboutPic{
     height: 260px;
+  }
+}
+
+@media(max-width: 296px){
+  .button,
+  .button2{
+    font-size: 1em;
+    padding:10px 28px;
   }
 }
 
