@@ -256,6 +256,7 @@ audio{
   }
   .aboutPic{
     height: 260px;
+    width: 260px;
   }
 }
 
@@ -277,6 +278,7 @@ audio{
   }
   .aboutPic{
     height: 240px;
+    width: 240px;
   }
   audio{
     margin: 1em 1em 1.5em 1em;
