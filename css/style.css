@@ -276,5 +276,16 @@ audio{
   audio{
     margin: 1em 1em 1.5em 1em;
     max-width: 200px;
+  }
+  .button,
+  .button2{
+    font-size: 0.9em;
+    padding:8px 22px;
   } 
+
+  .type{
+    font-size: 28px;
+    margin-bottom: 40px;
+  }  
+ 
 }
