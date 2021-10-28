@@ -10,6 +10,7 @@
   font-family: 'Nanum Myeongjo', serif;
   font-weight: bold;
   padding-bottom: 12px;
+  
 }
 
 .footerWrapper{
@@ -17,6 +18,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.vat{
+  font-size: 13px;
+}
+
 
 /* Line */
 .lineWrapper{
