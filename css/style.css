@@ -180,6 +180,9 @@ audio{
   .testimonialWrapper .press .grid>:last-child{
     grid-row: 1;
   }
+  .testimonialWrapper .grid>:first-child {
+    padding: 1rem;
+  } 
   .testimonialWrapper .press .grid img {
     min-height: 312px;
   }

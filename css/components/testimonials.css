@@ -53,7 +53,7 @@
 }
 
 .testimonialWrapper .grid>:first-child {
-  padding: 2em;
+  padding: 2rem;
   display: flex;
   flex-direction:column;
   justify-content: space-evenly;
