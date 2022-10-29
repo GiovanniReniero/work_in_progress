@@ -1,17 +1,10 @@
-@import url("components/testimonials.css");
-@import url("components/spins.css");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
 @import url("components/buttons.css");
-@import url("components/footer.css");
-@import url("components/forms.css");
-@import url("components/banners.css");
-@import url("components/cards.css");
-@import url("components/abouts.css");
-@import url("components/grids.css");
-
-
 
 :root {
   --maroon: #A2322E;
+  --bubblyYellow: #E5C56F;
   --dark: #333;
   
 }
@@ -45,4 +38,121 @@ h2
 }
 h1{
   font-size: 72px;
+}
+
+.hero_conntainer{
+  position: relative
+}
+
+.hero_cortenera,
+.hero_fongaro{
+  height: 500px;
+  background-color: white;
+  background-image: url("../images/fongaro_hero.jpg");
+  height: 60vh; /* You must set a specified height */
+  background-position: 75% 25%; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.hero_cortenera{
+  background-image: url("../images/hero_cortenera.jpg");
+}
+.hero_cortenera > .cantina_logo{
+  /* opacity: 0.5; */
+}
+
+
+.cantina_logo{
+  position: relative;
+  top: 8rem;
+  left: 2rem;
+  height: 180px;
+}
+
+.bubblybandits{
+  color: var(--bubblyYellow);
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.back_link {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    color: var(--bubblyYellow);
+    font-family: 'Nanum Myeongjo', serif;
+    text-shadow: 1px 1px var(--maroon);
+    text-decoration: none;
+  }
+.back_link  h3{
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.back_link :hover {
+  transition-duration: 600ms;
+  color: var(--maroon);
+  text-shadow: 1px 1px var(--bubblyYellow);
+}
+
+article,
+.calltoAction {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 1200px
+}
+
+.calltoAction,
+article p{
+  color: darkgray;
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+article h3{
+  color: beige;
+}
+
+.fongaro_bottles{
+  width: 400px;
+  margin: 2rem auto;
+}
+
+.button{
+  font-size: 1.2rem;
+  padding:12px 32px;/* margin: 24 16; */
+}
+
+/* *****Media Querries****** */
+
+
+@media only screen and (min-width: 768px) {
+
+  .article-container{
+    align-items: center;
+  }
+  
+  .fongaro_bottles{
+    height: 400px;
+  } 
+
+  .fongaroSpumantiText{
+    padding-right: 2rem;
+    margin-top: 2rem;
+  }
+
+  .cantina_logo{
+    left: 8rem;
+  }  
+}
+
+@media only screen and (min-width: 992px) {
+  .cantina_logo{
+    left: 14rem;
+  }  
+}
+@media only screen and (min-width: 1200px) {
+  .cantina_logo{
+    left: 22rem;
+  }  
 }
