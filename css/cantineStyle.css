@@ -1,0 +1,48 @@
+@import url("components/testimonials.css");
+@import url("components/spins.css");
+@import url("components/buttons.css");
+@import url("components/footer.css");
+@import url("components/forms.css");
+@import url("components/banners.css");
+@import url("components/cards.css");
+@import url("components/abouts.css");
+@import url("components/grids.css");
+
+
+
+:root {
+  --maroon: #A2322E;
+  --dark: #333;
+  
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html,
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body{
+  margin: 0; 
+  padding: 0;
+  background-color: black;
+  line-height: 1.6em;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2
+ {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: beige;
+  font-size: 64px;
+  font-weight: bold;
+}
+h1{
+  font-size: 72px;
+}
