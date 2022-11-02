@@ -17,6 +17,7 @@ html,
 body{
   max-width: 100%;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 body{
@@ -40,34 +41,50 @@ h1{
   font-size: 72px;
 }
 
-.hero_conntainer{
-  position: relative
+.hero_container{
+  position: relative;
+  /* max-width: 1200px; */
 }
 
+.hero_natalinagrandi,
+.hero_gentili,
 .hero_cortenera,
 .hero_fongaro{
-  height: 500px;
   background-color: white;
-  background-image: url("../images/fongaro_hero.jpg");
   height: 60vh; /* You must set a specified height */
   background-position: 75% 25%; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+.hero_fongaro{
+  background-image: url("../images/fongaro_hero.jpg");
+}
+
+.hero_gentili{
+  background-image: url("../images/hero_gentili.jpg");
+  /* height: 80%; */
+}
+
 .hero_cortenera{
   background-image: url("../images/hero_cortenera.jpg");
 }
-.hero_cortenera > .cantina_logo{
-  /* opacity: 0.5; */
+.hero_natalinagrandi{
+  background-image: url("../images/hero_natalina_grandi.jpg");
 }
 
-
 .cantina_logo{
-  position: relative;
+  position: absolute;
   top: 8rem;
   left: 2rem;
   height: 180px;
+}
+
+.BBlogo-banner{
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  height: 200px;
 }
 
 .bubblybandits{
@@ -84,6 +101,7 @@ h1{
     text-shadow: 1px 1px var(--maroon);
     text-decoration: none;
   }
+
 .back_link  h3{
   font-size: 2rem;
   font-weight: 800;
@@ -103,6 +121,7 @@ article,
 }
 
 .calltoAction,
+figcaption,
 article p{
   color: darkgray;
   font-size: 20px;
@@ -113,15 +132,37 @@ article h3{
   color: beige;
 }
 
-.fongaro_bottles{
+.cantina_text_image{
   width: 400px;
   margin: 2rem auto;
 }
 
-.button{
-  font-size: 1.2rem;
-  padding:12px 32px;/* margin: 24 16; */
+.cantina_product_image{
+  height:400px;
+  margin: 2rem auto;
 }
+
+footer{
+  max-width: 1200px;
+}
+
+.footerText{
+  color: darkgray;
+  font-size: small;
+  line-height: normal
+}
+
+
+.instagram{
+  color:beige
+}
+
+.BBLogo-footer :hover {
+    transform: scale(1.05);
+    transition: ease-in;
+    transition-duration: 100ms;
+  }
+
 
 /* *****Media Querries****** */
 
