@@ -46,6 +46,7 @@ h1{
   /* max-width: 1200px; */
 }
 
+.hero_gianni_tessari,
 .hero_natalinagrandi,
 .hero_gentili,
 .hero_cortenera,
@@ -55,6 +56,10 @@ h1{
   background-position: 75% 25%; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.hero_gianni_tessari{
+  background-image: url("../images/hero_gianni_tessari.jpg");
 }
 
 .hero_fongaro{
