@@ -46,6 +46,7 @@ h1{
   /* max-width: 1200px; */
 }
 
+.hero_peri,
 .hero_fattori,
 .hero_treTalestri,
 .hero_poggio,
@@ -62,6 +63,9 @@ h1{
 }
 
 
+.hero_peri {
+  background-image: url("../images/hero_peri.jpg");
+}
 .hero_fattori {
   background-image: url("../images/hero_fattori.jpg");
 }
