@@ -1,27 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap");
 
 @import url("components/buttons.css");
 
 :root {
-  --maroon: #A2322E;
-  --bubblyYellow: #E5C56F;
+  --maroon: #a2322e;
+  --bubblyYellow: #e5c56f;
   --dark: #333;
-  
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
 html,
-body{
+body {
   max-width: 100%;
   overflow-x: hidden;
   box-sizing: border-box;
 }
 
-body{
-  margin: 0; 
+body {
+  margin: 0;
   padding: 0;
   background-color: black;
   line-height: 1.6em;
@@ -29,19 +30,18 @@ body{
 }
 
 h1,
-h2
- {
-  font-family: 'Lato', sans-serif;
+h2 {
+  font-family: "Lato", sans-serif;
   text-align: center;
   color: beige;
   font-size: 64px;
   font-weight: bold;
 }
-h1{
+h1 {
   font-size: 72px;
 }
 
-.hero_container{
+.hero_container {
   position: relative;
   /* max-width: 1200px; */
 }
@@ -54,14 +54,14 @@ h1{
 .hero_natalinagrandi,
 .hero_gentili,
 .hero_cortenera,
-.hero_fongaro{
+.hero_fongaro,
+.hero_zambon_vulcano {
   background-color: white;
   height: 60vh; /* You must set a specified height */
   background-position: 75% 25%; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
-
 
 .hero_peri {
   background-image: url("../images/hero_peri.jpg");
@@ -76,56 +76,61 @@ h1{
   background-image: url("../images/hero_poggio_delle_grazie.jpg");
 }
 
-.hero_gianni_tessari{
+.hero_gianni_tessari {
   background-image: url("../images/hero_gianni_tessari.jpg");
 }
 
-.hero_fongaro{
+.hero_fongaro {
   background-image: url("../images/fongaro_hero.jpg");
 }
 
-.hero_gentili{
+.hero_gentili {
   background-image: url("../images/hero_gentili.jpg");
   /* height: 80%; */
 }
 
-.hero_cortenera{
+.hero_cortenera {
   background-image: url("../images/hero_cortenera.jpg");
 }
-.hero_natalinagrandi{
+.hero_natalinagrandi {
   background-image: url("../images/hero_natalina_grandi.jpg");
 }
+.hero_zambon_vulcano {
+  /* height: 80vh; */
+  /* border: 5px solid red; */
+  background-image: url("../images/zambon-vulcano-banner.jpg");
+}
 
-.cantina_logo{
+.cantina_logo {
   position: absolute;
   top: 8rem;
   left: 2rem;
   height: 180px;
 }
 
-.BBlogo-banner{
+.BBlogo-banner {
   position: absolute;
   top: 1rem;
   right: 2rem;
   height: 200px;
 }
 
-.bubblybandits{
+.bubblybandits {
   color: var(--bubblyYellow);
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
 }
 
 .back_link {
-    position: absolute;
-    top: 1rem;
-    left: 2rem;
-    color: var(--bubblyYellow);
-    font-family: 'Nanum Myeongjo', serif;
-    text-shadow: 1px 1px var(--maroon);
-    text-decoration: none;
-  }
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  color: var(--bubblyYellow);
+  font-family: "Nanum Myeongjo", serif;
+  text-shadow: 1px 1px var(--maroon);
+  text-decoration: none;
+}
 
-.back_link  h3{
+.back_link h3 {
   font-size: 2rem;
   font-weight: 800;
 }
@@ -140,83 +145,79 @@ article,
 .calltoAction {
   margin: 2rem auto;
   padding: 2rem;
-  max-width: 1200px
+  max-width: 1200px;
 }
 
 .calltoAction,
 figcaption,
-article p{
+article p {
   color: darkgray;
   font-size: 20px;
   line-height: 1.3em;
 }
 
-article h3{
+article h3 {
   color: beige;
 }
 
-.cantina_text_image{
+.cantina_text_image {
   width: 400px;
   margin: 2rem auto;
 }
 
-.cantina_product_image{
-  height:400px;
+.cantina_product_image {
+  height: 400px;
   margin: 2rem auto;
 }
 
-footer{
+footer {
   max-width: 1200px;
 }
 
-.footerText{
+.footerText {
   color: darkgray;
   font-size: small;
-  line-height: normal
+  line-height: normal;
 }
 
-
-.instagram{
-  color:beige
+.instagram {
+  color: beige;
 }
 
 .BBLogo-footer :hover {
-    transform: scale(1.05);
-    transition: ease-in;
-    transition-duration: 100ms;
-  }
-
+  transform: scale(1.05);
+  transition: ease-in;
+  transition-duration: 100ms;
+}
 
 /* *****Media Querries****** */
 
-
 @media only screen and (min-width: 768px) {
-
-  .article-container{
+  .article-container {
     align-items: center;
   }
-  
-  .fongaro_bottles{
-    height: 400px;
-  } 
 
-  .fongaroSpumantiText{
+  .fongaro_bottles {
+    height: 400px;
+  }
+
+  .fongaroSpumantiText {
     padding-right: 2rem;
     margin-top: 2rem;
   }
 
-  .cantina_logo{
+  .cantina_logo {
     left: 8rem;
-  }  
+  }
 }
 
 @media only screen and (min-width: 992px) {
-  .cantina_logo{
+  .cantina_logo {
     left: 14rem;
-  }  
+  }
 }
 @media only screen and (min-width: 1200px) {
-  .cantina_logo{
+  .cantina_logo {
     left: 22rem;
-  }  
+  }
 }
