@@ -138,8 +138,13 @@ h1 {
 }
 
 .cantina_logo.zambon_logo {
-  height: 120px;
+  height: 12px;
   transform: translate(-50%, 50%);
+}
+
+.cantina_logo.cortenera_logo {
+  height: 100px;
+  transform: translate(-50%, 70%);
 }
 
 .BBlogo-banner {
