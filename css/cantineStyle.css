@@ -2,10 +2,28 @@
 
 @import url("components/buttons.css");
 
+/* .hero_gianni_tessari::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); 
+  z-index: -1;
+} */
+
 :root {
   --maroon: #a2322e;
   --bubblyYellow: #e5c56f;
   --dark: #333;
+  --other: #f8ec4a;
+  --other2: #fcd025;
 }
 
 *,
@@ -76,10 +94,6 @@ h1 {
   background-image: url("../images/hero_poggio_delle_grazie.jpg");
 }
 
-.hero_gianni_tessari {
-  background-image: url("../images/hero_gianni_tessari.jpg");
-}
-
 .hero_fongaro {
   background-image: url("../images/fongaro_hero.jpg");
 }
@@ -101,18 +115,26 @@ h1 {
   background-image: url("../images/zambon-vulcano-banner.jpg");
 }
 
+.cantine-hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
+}
+
 .cantina_logo {
   position: absolute;
-  top: 8rem;
-  left: 2rem;
-  height: 180px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 80%);
+  border-radius: 2px;
+  height: 80px;
 }
 
 .BBlogo-banner {
-  position: absolute;
-  top: 1rem;
-  right: 2rem;
-  height: 200px;
+  height: 160px;
 }
 
 .bubblybandits {
@@ -122,12 +144,13 @@ h1 {
 
 .back_link {
   position: absolute;
-  top: 1rem;
-  left: 2rem;
-  color: var(--bubblyYellow);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  /* color: var(--bubblyYellow);
   font-family: "Nanum Myeongjo", serif;
   text-shadow: 1px 1px var(--maroon);
-  text-decoration: none;
+  text-decoration: none; */
 }
 
 .back_link h3 {
@@ -139,6 +162,10 @@ h1 {
   transition-duration: 600ms;
   color: var(--maroon);
   text-shadow: 1px 1px var(--bubblyYellow);
+}
+
+.slogan {
+  display: none;
 }
 
 article,
@@ -193,6 +220,31 @@ footer {
 /* *****Media Querries****** */
 
 @media only screen and (min-width: 768px) {
+  .BBlogo-banner {
+    height: 140px;
+  }
+
+  .back_link {
+    position: absolute;
+    top: 1.4rem;
+    left: 1.4rem;
+    transform: none;
+  }
+
+  .slogan {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -88%);
+    color: var(--other2);
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+  }
+
   .article-container {
     align-items: center;
   }
@@ -205,19 +257,21 @@ footer {
     padding-right: 2rem;
     margin-top: 2rem;
   }
-
-  .cantina_logo {
-    left: 8rem;
-  }
 }
 
 @media only screen and (min-width: 992px) {
-  .cantina_logo {
-    left: 14rem;
+  .BBlogo-banner {
+    height: 160px;
+  }
+  .slogan {
+    font-size: 2.2rem;
   }
 }
 @media only screen and (min-width: 1200px) {
   .cantina_logo {
-    left: 22rem;
+    height: 100px;
+  }
+  .slogan {
+    font-size: 2.6rem;
   }
 }
