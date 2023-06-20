@@ -133,8 +133,8 @@ h1 {
   height: 80px;
 }
 .cantina_logo.fongaro_logo {
-  transform: translate(-50%, 70%);
-  height: 100px;
+  transform: translate(-50%, 50%);
+  height: 140px;
 }
 
 .cantina_logo.zambon_logo {
@@ -156,17 +156,6 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -100%);
-}
-
-.back_link h3 {
-  font-size: 2rem;
-  font-weight: 800;
-}
-
-.back_link :hover {
-  transition-duration: 600ms;
-  color: var(--maroon);
-  text-shadow: 1px 1px var(--bubblyYellow);
 }
 
 .slogan {
@@ -196,8 +185,9 @@ article h3 {
   text-align: justify;
 }
 .cantina_text_image {
-  width: 400px;
+  width: 270px;
   margin: 2rem auto;
+  border-radius: 2px;
 }
 
 .cantina_product_image {
@@ -257,6 +247,10 @@ footer {
     font-weight: bold;
     line-height: 1.5;
     text-align: center;
+  }
+
+  .cantina_text_image {
+    width: 400px;
   }
 
   .article-container {
