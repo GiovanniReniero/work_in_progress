@@ -112,7 +112,7 @@ h1 {
 .hero_zambon_vulcano {
   /* height: 80vh; */
   /* border: 5px solid red; */
-  background-image: url("../images/zambon-vulcano-banner.jpg");
+  /* background-image: url("../images/zambon-vulcano-banner.jpg"); */
 }
 
 .cantine-hero-image {
@@ -132,6 +132,15 @@ h1 {
   border-radius: 2px;
   height: 80px;
 }
+.cantina_logo.fongaro_logo {
+  transform: translate(-50%, 70%);
+  height: 100px;
+}
+
+.cantina_logo.zambon_logo {
+  height: 120px;
+  transform: translate(-50%, 50%);
+}
 
 .BBlogo-banner {
   height: 160px;
@@ -147,10 +156,6 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -100%);
-  /* color: var(--bubblyYellow);
-  font-family: "Nanum Myeongjo", serif;
-  text-shadow: 1px 1px var(--maroon);
-  text-decoration: none; */
 }
 
 .back_link h3 {
@@ -186,7 +191,10 @@ article p {
 article h3 {
   color: beige;
 }
-
+.cantina_text,
+.cantina_product_text {
+  text-align: justify;
+}
 .cantina_text_image {
   width: 400px;
   margin: 2rem auto;
@@ -194,7 +202,13 @@ article h3 {
 
 .cantina_product_image {
   height: 400px;
-  margin: 2rem auto;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-container figcaption {
+  margin-bottom: 0.8rem;
 }
 
 footer {
