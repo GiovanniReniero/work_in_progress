@@ -65,10 +65,6 @@ h1 {
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.hero_fattori {
-  background-image: url("../images/hero_fattori.jpg");
-}
-
 .hero_fongaro {
   background-image: url("../images/fongaro_hero.jpg");
 }
@@ -128,6 +124,10 @@ h1 {
   transform: translate(-50%, 60%);
 }
 
+.cantina_logo.fattori_logo {
+  height: 140px;
+  transform: translate(-50%, 60%);
+}
 .BBlogo-banner {
   height: 190px;
 }
@@ -250,6 +250,10 @@ footer {
   .fongaroSpumantiText {
     padding-right: 2rem;
     margin-top: 2rem;
+  }
+
+  figcaption {
+    max-width: 200px;
   }
 }
 
