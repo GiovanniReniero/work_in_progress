@@ -82,21 +82,8 @@ h1 {
   background-image: url("../images/fongaro_hero.jpg");
 }
 
-.hero_gentili {
-  background-image: url("../images/hero_gentili.jpg");
-  /* height: 80%; */
-}
-
-.hero_cortenera {
-  background-image: url("../images/hero_cortenera.jpg");
-}
 .hero_natalinagrandi {
   background-image: url("../images/hero_natalina_grandi.jpg");
-}
-.hero_zambon_vulcano {
-  /* height: 80vh; */
-  /* border: 5px solid red; */
-  /* background-image: url("../images/zambon-vulcano-banner.jpg"); */
 }
 
 .cantine-hero-image {
@@ -122,13 +109,17 @@ h1 {
 }
 
 .cantina_logo.zambon_logo {
-  height: 12px;
+  height: 120px;
   transform: translate(-50%, 50%);
 }
 
 .cantina_logo.cortenera_logo {
   height: 100px;
   transform: translate(-50%, 70%);
+}
+.cantina_logo.gentili_logo {
+  height: 140px;
+  transform: translate(-50%, 60%);
 }
 
 .BBlogo-banner {
