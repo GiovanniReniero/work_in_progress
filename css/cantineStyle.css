@@ -71,9 +71,7 @@ h1 {
 .hero_fattori {
   background-image: url("../images/hero_fattori.jpg");
 }
-.hero_treTalestri {
-  background-image: url("../images/hero_treTalestri.jpg");
-}
+
 .hero_poggio {
   background-image: url("../images/hero_poggio_delle_grazie.jpg");
 }
@@ -119,6 +117,11 @@ h1 {
 }
 .cantina_logo.gentili_logo {
   height: 140px;
+  transform: translate(-50%, 60%);
+}
+
+.cantina_logo.talestri_logo {
+  height: 120px;
   transform: translate(-50%, 60%);
 }
 
