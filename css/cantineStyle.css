@@ -72,10 +72,6 @@ h1 {
   background-image: url("../images/hero_fattori.jpg");
 }
 
-.hero_poggio {
-  background-image: url("../images/hero_poggio_delle_grazie.jpg");
-}
-
 .hero_fongaro {
   background-image: url("../images/fongaro_hero.jpg");
 }
@@ -125,8 +121,13 @@ h1 {
   transform: translate(-50%, 60%);
 }
 
+.cantina_logo.poggio_logo {
+  height: 180px;
+  transform: translate(-50%, 60%);
+}
+
 .BBlogo-banner {
-  height: 160px;
+  height: 190px;
 }
 
 .bubblybandits {
