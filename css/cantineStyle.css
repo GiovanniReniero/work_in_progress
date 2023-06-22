@@ -59,10 +59,7 @@ h1 {
 .hero_fongaro,
 .hero_zambon_vulcano {
   background-color: white;
-  height: 60vh; /* You must set a specified height */
-  background-position: 75% 25%; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 60vh;
 }
 
 .hero_natalinagrandi {
@@ -80,13 +77,20 @@ h1 {
 
 .cantina_logo {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 80%);
-  border-radius: 2px;
-  height: 80px;
 }
-.cantina_logo.fongaro_logo {
+
+.cantina_logo {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-radius: 2px;
+  height: 120px;
+}
+.cantina_logo.cortenera_logo {
+  /* height: 100px; */
+}
+/* .cantina_logo.fongaro_logo {
   transform: translate(-50%, 50%);
   height: 140px;
 }
@@ -111,8 +115,8 @@ h1 {
 }
 
 .cantina_logo.poggio_logo {
-  height: 180px;
-  transform: translate(-50%, 60%);
+  height: 160px;
+  transform: translate(-50%, 38%);
 }
 
 .cantina_logo.peri_logo {
@@ -123,7 +127,8 @@ h1 {
 .cantina_logo.fattori_logo {
   height: 140px;
   transform: translate(-50%, 60%);
-}
+} */
+
 .BBlogo-banner {
   height: 190px;
 }
@@ -203,8 +208,69 @@ footer {
   transition-duration: 100ms;
 }
 
-/* *****Media Querries****** */
+/* *****Media Queries****** */
 
+/* small screen devices*/
+@media only screen and (device-width: 280px) and (device-height: 653px) {
+  .cantina_logo {
+    top: 43%;
+  }
+  .cantina_logo.tessari_logo,
+  .cantina_logo.cortenera_logo {
+    height: 60px;
+    margin-top: 4rem;
+  }
+}
+@media only screen and (device-width: 360px) and (device-height: 740px),
+  only screen and (device-width: 540px) and (device-height: 720px) {
+  .cantina_logo {
+    top: 50%;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 667px) {
+  .cantina_logo {
+    height: 90px;
+  }
+}
+@media only screen and (device-width: 667px) and (device-height: 375px),
+  only screen and (device-width: 740px) and (device-height: 360px),
+  only screen and (device-width: 720px) and (device-height: 540px),
+  only screen and (device-width: 653px) and (device-height: 280px) {
+  .cantina_logo {
+    top: 50%;
+    left: auto;
+    right: 10%;
+    transform: translateY(-50%);
+    height: 90px;
+  }
+
+  .cantina_logo.tessari_logo {
+    height: 60px;
+  }
+
+  .back_link {
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+  }
+}
+@media only screen and (device-width: 653px) and (device-height: 280px),
+  only screen and (device-width: 740px) and (device-height: 360px),
+  only screen and (device-width: 667px) and (device-height: 375px) {
+  .BBlogo-banner {
+    height: 140px;
+  }
+  .back_link {
+    left: 4%;
+  }
+  .cantina_logo {
+    right: 4%;
+  }
+}
+/* small screen devices--END*/
+
+/* medium screens */
 @media only screen and (min-width: 768px) {
   .BBlogo-banner {
     height: 140px;
@@ -238,17 +304,41 @@ footer {
   .article-container {
     align-items: center;
   }
+}
+/* medium screen devices */
 
-  .fongaro_bottles {
-    height: 400px;
+@media only screen and (device-width: 896px) and (device-height: 414px),
+  only screen and (device-width: 844px) and (device-height: 390px),
+  only screen and (device-width: 915px) and (device-height: 412px),
+  only screen and (device-width: 914px) and (device-height: 412px),
+  only screen and (device-width: 851px) and (device-height: 393px), {
+  .cantina_logo {
+    top: 50%;
+    left: auto;
+    right: 4%;
+    transform: translateY(-50%);
+    height: 90px;
+  }
+  .cantina_logo.tessari_logo,
+  .cantina_logo.cortenera_logo {
+    height: 60px;
   }
 
-  .fongaroSpumantiText {
-    padding-right: 2rem;
-    margin-top: 2rem;
+  .back_link {
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+  }
+  .BBlogo-banner {
+    height: 160px;
+  }
+
+  .slogan {
+    transform: translate(-50%, -50%);
   }
 }
-
+/* medium screen devices--END */
+/* large screens */
 @media only screen and (min-width: 992px) {
   .BBlogo-banner {
     height: 160px;
@@ -257,9 +347,22 @@ footer {
     font-size: 2.2rem;
   }
 }
+/* medium screen devices */
+@media only screen and (device-width: 1024px) and (device-height: 768px) {
+  .cantina_logo {
+    top: 50%;
+  }
+}
+@media only screen and (device-width: 1114px) and (device-height: 720px) {
+  .cantina_logo {
+    top: 46%;
+  }
+}
+
+/* xl and xxl screens */
 @media only screen and (min-width: 1200px) {
   .cantina_logo {
-    height: 100px;
+    /* height: 100px; */
   }
   .slogan {
     font-size: 2.6rem;
