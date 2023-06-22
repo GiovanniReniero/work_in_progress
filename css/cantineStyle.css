@@ -222,7 +222,8 @@ footer {
   }
 }
 @media only screen and (device-width: 360px) and (device-height: 740px),
-  only screen and (device-width: 540px) and (device-height: 720px) {
+  only screen and (device-width: 540px) and (device-height: 720px),
+  only screen and (device-width: 360px) and (device-height: 414px) {
   .cantina_logo {
     top: 50%;
   }
@@ -236,6 +237,7 @@ footer {
 @media only screen and (device-width: 667px) and (device-height: 375px),
   only screen and (device-width: 740px) and (device-height: 360px),
   only screen and (device-width: 720px) and (device-height: 540px),
+  only screen and (device-width: 414px) and (device-height: 360px),
   only screen and (device-width: 653px) and (device-height: 280px) {
   .cantina_logo {
     top: 50%;
