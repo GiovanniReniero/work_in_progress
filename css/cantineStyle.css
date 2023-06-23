@@ -87,47 +87,6 @@ h1 {
   border-radius: 2px;
   height: 120px;
 }
-.cantina_logo.cortenera_logo {
-  /* height: 100px; */
-}
-/* .cantina_logo.fongaro_logo {
-  transform: translate(-50%, 50%);
-  height: 140px;
-}
-
-.cantina_logo.zambon_logo {
-  height: 120px;
-  transform: translate(-50%, 50%);
-}
-
-.cantina_logo.cortenera_logo {
-  height: 100px;
-  transform: translate(-50%, 70%);
-}
-.cantina_logo.gentili_logo {
-  height: 140px;
-  transform: translate(-50%, 60%);
-}
-
-.cantina_logo.talestri_logo {
-  height: 120px;
-  transform: translate(-50%, 60%);
-}
-
-.cantina_logo.poggio_logo {
-  height: 160px;
-  transform: translate(-50%, 38%);
-}
-
-.cantina_logo.peri_logo {
-  height: 140px;
-  transform: translate(-50%, 60%);
-}
-
-.cantina_logo.fattori_logo {
-  height: 140px;
-  transform: translate(-50%, 60%);
-} */
 
 .BBlogo-banner {
   height: 190px;
@@ -210,82 +169,40 @@ footer {
 
 /* *****Media Queries****** */
 
-/* small screen devices*/
-@media only screen and (device-width: 280px) and (device-height: 653px) {
+@media only screen and (orientation: portrait) and (min-device-width: 280px) {
   .cantina_logo {
-    top: 43%;
-  }
-  .cantina_logo.tessari_logo,
-  .cantina_logo.cortenera_logo {
-    height: 60px;
-    margin-top: 4rem;
-  }
-}
-@media only screen and (device-width: 360px) and (device-height: 740px),
-  only screen and (device-width: 360px) and (device-height: 720px),
-  only screen and (device-width: 540px) and (device-height: 720px),
-  only screen and (device-width: 360px) and (device-height: 414px) {
-  .cantina_logo {
-    top: 50%;
+    top: 48%;
   }
 }
 
-@media only screen and (device-width: 375px) and (device-height: 667px) {
-  .cantina_logo {
-    height: 90px;
-  }
-}
-@media only screen and (device-width: 667px) and (device-height: 375px),
-  only screen and (device-width: 720px) and (device-height: 360px),
-  only screen and (device-width: 740px) and (device-height: 360px),
-  only screen and (device-width: 720px) and (device-height: 540px),
-  only screen and (device-width: 414px) and (device-height: 360px),
-  only screen and (device-width: 653px) and (device-height: 280px) {
+@media only screen and (orientation: landscape) and (min-device-width: 653px) {
   .cantina_logo {
     top: 50%;
     left: auto;
-    right: 10%;
+    right: 2%;
     transform: translateY(-50%);
     height: 90px;
   }
 
+  .cantina_logo.cortenera_logo,
   .cantina_logo.tessari_logo {
     height: 60px;
   }
 
   .back_link {
     top: 50%;
-    left: 10%;
+    left: 3%;
     transform: translateY(-50%);
   }
 }
-@media only screen and (device-width: 653px) and (device-height: 280px),
-  only screen and (device-width: 740px) and (device-height: 360px),
-  only screen and (device-width: 720px) and (device-height: 360px),
-  only screen and (device-width: 667px) and (device-height: 375px) {
-  .BBlogo-banner {
-    height: 140px;
-  }
-  .back_link {
-    left: 4%;
-  }
-  .cantina_logo {
-    right: 4%;
-  }
-}
+
 /* small screen devices--END*/
 
 /* medium screens */
-@media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
   .BBlogo-banner {
     height: 140px;
-  }
-
-  .back_link {
-    position: absolute;
-    top: 1.4rem;
-    left: 1.4rem;
-    transform: none;
   }
 
   .slogan {
@@ -293,7 +210,7 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -88%);
+    transform: translate(-50%, -50%);
     color: var(--other2);
     font-family: "Nanum Myeongjo", serif;
     font-size: 2rem;
@@ -310,39 +227,7 @@ footer {
     align-items: center;
   }
 }
-/* medium screen devices */
 
-@media only screen and (device-width: 896px) and (device-height: 414px),
-  only screen and (device-width: 844px) and (device-height: 390px),
-  only screen and (device-width: 915px) and (device-height: 412px),
-  only screen and (device-width: 914px) and (device-height: 412px),
-  only screen and (device-width: 851px) and (device-height: 393px), {
-  .cantina_logo {
-    top: 50%;
-    left: auto;
-    right: 4%;
-    transform: translateY(-50%);
-    height: 90px;
-  }
-  .cantina_logo.tessari_logo,
-  .cantina_logo.cortenera_logo {
-    height: 60px;
-  }
-
-  .back_link {
-    top: 50%;
-    left: 4%;
-    transform: translateY(-50%);
-  }
-  .BBlogo-banner {
-    height: 160px;
-  }
-
-  .slogan {
-    transform: translate(-50%, -50%);
-  }
-}
-/* medium screen devices--END */
 /* large screens */
 @media only screen and (min-width: 992px) {
   .BBlogo-banner {
@@ -350,17 +235,6 @@ footer {
   }
   .slogan {
     font-size: 2.2rem;
-  }
-}
-/* medium screen devices */
-@media only screen and (device-width: 1024px) and (device-height: 768px) {
-  .cantina_logo {
-    top: 50%;
-  }
-}
-@media only screen and (device-width: 1114px) and (device-height: 720px) {
-  .cantina_logo {
-    top: 46%;
   }
 }
 
