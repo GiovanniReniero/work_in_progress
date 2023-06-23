@@ -236,6 +236,11 @@ footer {
   .slogan {
     font-size: 2.2rem;
   }
+
+  .cantina_logo {
+    width: 130px;
+    height: auto;
+  }
 }
 
 /* xl and xxl screens */
