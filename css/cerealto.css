@@ -109,17 +109,59 @@ h1 {
   display: none;
 }
 
+/* ARTICLE-CONTAINER ZONE-GRID */
 .article-container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas:
+    "first"
+    "second"
+    "third"
+    "fourth"
+    "fifth"
+    "image";
 }
 
+.text-1 {
+  grid-area: first;
+}
+.text-2 {
+  grid-area: second;
+}
+.text-3 {
+  grid-area: third;
+}
+.text-4 {
+  grid-area: fourth;
+}
+.text-5 {
+  grid-area: fifth;
+}
+figure {
+  grid-area: image;
+}
 .cantina_text_image {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 2px;
 }
+
+@media only screen and (min-width: 1000px) {
+  .article-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+      "first first"
+      "second image"
+      "third image"
+      "fourth image"
+      "fifth image";
+    grid-column-gap: 1.2rem;
+  }
+}
+
+/*ARTICLE-CONTAINER ZONE-GRID-- END*/
 
 article,
 .calltoAction {
@@ -242,31 +284,6 @@ footer {
   .cantina_logo {
     width: 130px;
     height: auto;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .article-container {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .cantina_text,
-  figure {
-    width: 50%;
-  }
-  figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .cantina_text_image {
-    height: auto;
-    width: 100%;
-    object-fit: cover;
   }
 }
 
