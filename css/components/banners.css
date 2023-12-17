@@ -1,5 +1,5 @@
 /* BannerIndex */
-.banner{
+.banner {
   background-image: url("../../images/banner_Xsml.jpg");
   background-position: 75% 25%;
   background-repeat: no-repeat;
@@ -14,15 +14,38 @@
   margin: 4px;
 }
 
- .logo {
-   align-self: flex-start;
-   height: 400px;
-   margin: 32px;
-   margin-bottom: 64px;
-  }
+.logo {
+  align-self: flex-start;
+  height: 400px;
+  margin: 32px;
+  margin-bottom: 64px;
+}
 
-.scrittura{
+.scrittura {
   font-size: 4vh;
   margin-bottom: 40px;
 }
 
+.tours {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background-color: #ffc100;
+  transform: rotate(-45deg);
+  transform-origin: top right;
+  padding: 4px;
+  border-radius: 2px;
+}
+.tours p {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: start;
+  padding: 0 0.3rem;
+  line-height: 1.1;
+}
+.tours:hover p {
+  color: #a2322e;
+}

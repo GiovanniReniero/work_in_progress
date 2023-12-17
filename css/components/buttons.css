@@ -1,17 +1,15 @@
-
 .scatolettaBottone {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
-.button{
+.button {
   font-size: 1.5em;
   text-decoration: none;
   text-align: center;
-  background-color: #FFC100;
-  color: black ;
+  background-color: #ffc100;
+  color: black;
   border: 0;
   border-radius: 16px;
   padding: 16px 40px;
@@ -25,15 +23,15 @@
 
 .button:hover {
   transition: 0.3s;
-  background-color: #FDCF24;
-  color: #A2322E;
+  background-color: #fdcf24;
+  color: #a2322e;
 }
 
-.button2{
+.button2 {
   font-size: 1.5em;
   text-decoration: none;
   text-align: center;
-  background-color: #A2322E;
+  background-color: #a2322e;
   color: #fff;
   /* color: var(--dark) */
   border: 0;
@@ -41,11 +39,11 @@
   padding: 16px 40px;
   margin: 24px 16px 40px;
   font-weight: 500;
-  width: auto ;
+  width: auto;
 }
 
 .button2:hover {
   transition: 0.3s;
-  color: #FDCF24;
+  color: #fdcf24;
   transform: scale(1.05);
 }

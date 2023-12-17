@@ -8,30 +8,28 @@
 @import url("components/abouts.css");
 @import url("components/grids.css");
 
-
 :root {
-  --maroon: #A2322E;
+  --maroon: #a2322e;
   --dark: #333;
 }
 
-body{
-  margin: 0; 
+body {
+  margin: 0;
   padding: 0;
   background-color: black;
   line-height: 1.6em;
   text-rendering: optimizeLegibility;
 }
 
-.contImage{
+.contImage {
   background-color: black;
 }
 
 /* Tags */
 
 .media h2,
-h2
- {
-  font-family: 'Lato', sans-serif;
+h2 {
+  font-family: "Lato", sans-serif;
   text-align: center;
   color: beige;
   font-size: 64px;
@@ -39,14 +37,12 @@ h2
 }
 
 .media h2,
-.in-touch 
-{
+.in-touch {
   text-shadow: 1px 1px 1px #333;
 }
 
 .press h2,
-.radio h2
-{
+.radio h2 {
   font-size: 32px;
 }
 
@@ -54,13 +50,12 @@ h2
   margin-top: 2em;
 }
 
-
-h4{
-  font-family: 'Lato', sans-serif;
+h4 {
+  font-family: "Lato", sans-serif;
   font-size: 26px;
 }
 
-ul{
+ul {
   list-style: none;
   padding: 0;
   align-items: center;
@@ -78,154 +73,159 @@ Grid
   padding: 2em;
 }
 
-
 /******* 
  Audio
 *******/
 
-audio::-webkit-media-controls-panel{
+audio::-webkit-media-controls-panel {
   background-color: var(--maroon);
 }
 
-audio{
+audio {
   margin: 1.5em 1em 4em;
   max-width: 360px;
 }
 
-
 /* Media Queries */
-@media(max-width: 1700px) {
+@media (max-width: 1700px) {
   .media h2,
-  h2{
+  h2 {
     font-size: 56px;
   }
-  h4{
+  h4 {
     font-size: 24px;
   }
 }
 
-@media(max-width: 1550px) {
+@media (max-width: 1550px) {
   .media h2,
-  h2{
+  h2 {
     font-size: 48px;
   }
-  .button{
+  .button {
     font-size: 32px;
   }
 }
 
-@media(max-width: 1300px) {
+@media (max-width: 1300px) {
   .media h2,
-  h2{
+  h2 {
     font-size: 36px;
   }
-  .logo{
+  .logo {
     height: 360px;
   }
-  .button{
+  .button {
     font-size: 28px;
     margin: 16px 8px 32px;
   }
 }
 
-@media(max-width: 1024px) {
-  .logo{
+@media (max-width: 1024px) {
+  .logo {
     max-height: 360px;
     margin: 8px;
     padding: 8px;
   }
-  .scrittura{
+  .scrittura {
     height: 80px;
     margin: 48px 28px 8px;
   }
-  .button{
+  .button {
     font-size: 24px;
     margin: 12px 6px 28px;
   }
-  .button2{
+  .button2 {
     font-size: 18px;
     margin: 12px 6px 28px;
   }
 }
 
-@media(max-width: 995px){
-  .radio .grid{
+@media (max-width: 995px) {
+  .radio .grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     padding-top: 1em;
     gap: 16px;
+  }
 }
 
-@media(max-width: 771px) {
-  .logo{
+@media (max-width: 771px) {
+  .logo {
     max-height: 360px;
     margin: 8px;
     padding: 8px;
   }
-  .imgSpinWrapper{
+  .imgSpinWrapper {
     height: 100%;
     width: 50%;
   }
 
   .interested,
-  .radio_exclamation h4{
+  .radio_exclamation h4 {
     font-size: 20px;
   }
-  .testimonialWrapper .press .grid{
+  .testimonialWrapper .press .grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     padding-top: 1em;
     gap: 16px;
   }
-  .testimonialWrapper .press .grid>:last-child{
+  .testimonialWrapper .press .grid > :last-child {
     grid-row: 1;
   }
-  .testimonialWrapper .grid>:first-child {
+  .testimonialWrapper .grid > :first-child {
     padding: 1rem;
-  } 
+  }
   .testimonialWrapper .press .grid img {
     min-height: 312px;
   }
 }
 
-@media(max-width: 700px) {
-  .scatolaBanner{
+@media (max-width: 700px) {
+  .scatolaBanner {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .logo{
+  .logo {
     max-height: 400px;
     margin: auto;
   }
-  footer p{
+  footer p {
     display: none;
   }
-  #icon{
+  #icon {
     margin-bottom: 28px;
   }
-  .capcha{
+  .capcha {
     justify-content: center;
   }
+  /* .tours {
+    font-size: 0.8rem;
+    background-color: red;
+    height: 1.2 rem;
+    padding-block: 0.4rem;
+  } */
 }
 
-@media(max-width: 420px) {
-  .aboutPic{
+@media (max-width: 420px) {
+  .aboutPic {
     width: 310px;
     border-radius: 12px;
   }
-  h4{
+  h4 {
     font-size: 18px;
     text-align: start;
   }
-  .imgSpinWrapper{
+  .imgSpinWrapper {
     height: 100%;
     width: 66%;
   }
-  .radio .grid img{
+  .radio .grid img {
     min-height: 420px;
   }
-  audio{
+  audio {
     margin: 1em 1em 1.5em 1em;
     max-width: 240px;
   }
@@ -234,67 +234,66 @@ audio{
   }
 }
 
-@media(max-width: 357px){
+@media (max-width: 357px) {
   .button,
-  .button2{
+  .button2 {
     font-size: 1.2em;
-    padding:12px 32px;
+    padding: 12px 32px;
   }
 }
 
-@media(max-width: 320px){
+@media (max-width: 320px) {
   .testimonialWrapper .press .grid img {
     min-height: 240px;
-  }  
-  .testimonialWrapper .press .grid{
+  }
+  .testimonialWrapper .press .grid {
     margin: 0;
     height: 100%;
   }
-  .radio .grid img{
+  .radio .grid img {
     min-height: 360px;
   }
   .stars {
     font-size: 32px;
   }
-  .aboutPic{
+  .aboutPic {
     /* height: 260px; */
     width: 260px;
   }
 }
 
-@media(max-width: 296px){
+@media (max-width: 296px) {
   .button,
-  .button2{
+  .button2 {
     font-size: 1em;
-    padding:10px 20px;
+    padding: 10px 20px;
   }
 }
 
-@media(max-width: 280px) {
-  .logo{
+@media (max-width: 280px) {
+  .logo {
     max-height: 300px;
     margin: auto;
   }
   .testimonialWrapper .press .grid img {
     height: 240px;
   }
-  .aboutPic{
+  .aboutPic {
     /* height: 240px; */
     width: 240px;
   }
-  audio{
+  audio {
     margin: 1em 1em 1.5em 1em;
     max-width: 200px;
   }
   .button,
-  .button2{
+  .button2 {
     font-size: 0.9em;
-    padding:8px 18px;
-  } 
+    padding: 8px 18px;
+  }
 
-  .type{
+  .type {
     font-size: 28px;
     margin-bottom: 40px;
-  }  
- 
+  }
 }
